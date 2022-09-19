@@ -34,7 +34,7 @@ function Navbar() {
                           Hi there, as you see my portfolio you might be understood that I am a Web Developer. I always try to do something to my best. As a web developer, at first I design a UI (user interface) with HTML and CSS and then will convert it to a demandable Website , Web Application or Desktop Application as the client or company requirement by using the most popular technology ( Vanilla JavaScript, Reactjs, TypeScript, Nodejs, Expressjs, MongoDB ( noSQL Database )) or others technologies I could be able to do.</p>
                   </div>
                   <div className='banner-img'>
-                      <img src={banner} alt='logo' />
+                      <img src= {banner} alt='logo' />
                   </div>
               </div>
     </header>
