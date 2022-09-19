@@ -1,9 +1,12 @@
 
 header{
+    background-color: black;
+}
+.container{
     background-color: #00008bb5;
     color: white;
 }
-.container{
+.container-wrapper{
     width: 90%;
     margin: auto;
     padding: 6px;
@@ -36,6 +39,32 @@ ul{
     height: 30px;
 }
 
+.banner{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+    background-color: black;
+}
+.banner-info{
+    background-color: #183937bf;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.banner-img > img{
+    border-radius: 20px;
+}
+.banner-info > h3{
+    border-bottom: 2px solid red;
+    width: 190px;
+}
+.banner-info > p{
+    line-height: 27px;
+    font-size: 18px;
+}
 @media screen and (max-width: 700px) {
     .navbar-disc{
         display: none;
