@@ -1,0 +1,41 @@
+.exp-container{
+    width: 90%;
+    margin: 20px auto;
+
+}
+.exp-container > h1{
+    width: 220px;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px 0px;
+    font-size: 40px;
+    border: 2px red dotted;
+    border-radius: 10px;
+}
+
+.exps-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.experience{
+    padding: 20px;
+    margin-top: 0px;
+    background-color: rgb(32 33 36);
+    color: white;
+    border-radius: 10px;
+}
+.experience > h1{
+    border-bottom: 4px solid red;
+    width: 290px;
+}
+.experience > h4{
+    font-size: 25px;
+    margin: 0%;
+}
+.experience > p{
+    line-height: 25px;
+    font-size: 20px;
+}
