@@ -29,6 +29,8 @@
 }
 .experience > h1{
     border-bottom: 4px solid red;
+    border-left: 4px solid red;
+    border-radius: 5px;
     width: 290px;
 }
 .experience > h4{
@@ -43,5 +45,8 @@
 @media screen and (max-width: 700px) {
     .exps-wrapper {
         flex-direction: column;
+    }
+    .exp-container h1{
+        font-size: 30px;
     }
 }
