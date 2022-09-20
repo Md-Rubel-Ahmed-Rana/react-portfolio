@@ -51,9 +51,13 @@
     }
     .experience>h1 {
         font-size: 17px;
-        width: 160px;
+        width: 60%;
     }
     .experience > h4 {
+        font-size: 17px;
+    }
+    .experience>p {
+        line-height: 25px;
         font-size: 17px;
     }
 }
