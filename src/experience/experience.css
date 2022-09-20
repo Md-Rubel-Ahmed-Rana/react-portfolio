@@ -49,4 +49,11 @@
     .exp-container h1{
         font-size: 30px;
     }
+    .experience>h1 {
+        font-size: 17px;
+        width: 160px;
+    }
+    .experience > h4 {
+        font-size: 17px;
+    }
 }

@@ -93,12 +93,12 @@ ul > li:hover{
     }
     .banner-info h1{
         font-size: 20px;
-        width: 260px;
+        width: 200px;
     }
     .banner-img>img {
         width: 99%;
     }
     .banner-info > p {
-        line-height: 25px;
+        line-height: 18px;
     }
 }
