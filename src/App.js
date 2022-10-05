@@ -1,12 +1,16 @@
-import Experience from "./experience/experience";
-import Navbar from "./header/nav";
-import Footer from "./footer/footer";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Main from "./Layout/Main";
+
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main></Main>
+    }
+  ])
   return (
     <div>
-      <Navbar />
-      < Experience />
-      < Footer />
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

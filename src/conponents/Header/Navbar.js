@@ -1,11 +1,12 @@
 import React from 'react'
-import "./nav.css"
+import "./Navbar.css"
 import logo from "./logo.jpg"
 import collapseImage from "./collapse.jpg"
-import banner from "./banner.png"
+import banner from "./banner.png";
 
 function Navbar() {
   return (
+    <>
     <header>
           <div className='container'>
               <nav className='container-wrapper'>
@@ -37,6 +38,7 @@ function Navbar() {
                   </div>
               </div>
     </header>
+    </>
   )
 }
 
